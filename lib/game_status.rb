@@ -50,4 +50,10 @@ end
 def winner(board)
   winning_array = won?(board)
   winning_index = winning_array[0]
+  if winning index == "X"
+    return "X"
+  else
+    return "O"
+end
+end
 end
