@@ -40,7 +40,7 @@ def full?(board)
 end
 
 def draw?(board)
-  board.all? do |position|
+  board.any? do |position|
     position == "X" || position == "O"
 end
 end
