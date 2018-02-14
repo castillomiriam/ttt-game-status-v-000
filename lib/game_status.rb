@@ -50,4 +50,3 @@ end
 def winner(board)
   winning_array = won?(board)
   winning_index = [winning_array[0]]
-  
