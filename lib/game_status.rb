@@ -50,7 +50,8 @@ def over?(board)
 end
 
 def winner(board)
-  winning_array = won?(board)
+  if winning_array = won?(board)
   winning_index = winning_array[0]
   winner = board[winning_index]
+end
 end
