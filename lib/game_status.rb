@@ -44,3 +44,7 @@ def draw?(board)
     position == "X" || position == "O" 
 end
 end
+
+def over?(board)
+  
+end
