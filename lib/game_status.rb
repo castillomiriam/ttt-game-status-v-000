@@ -51,6 +51,6 @@ end
 
 def winner(board)
   winning_array = won?(board)
-  binding.pry
   winning_index = winning_array[0]
+  winner = board[winning_index]
 end
