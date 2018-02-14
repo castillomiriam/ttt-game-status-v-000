@@ -48,6 +48,6 @@ def over?(board)
 end
 
 def winner(board)
-  winning_array = won?[(board) = X ]
+  winning_array = won?[(board) = "X" ]
   winning_index = winning_array[0]
 end
