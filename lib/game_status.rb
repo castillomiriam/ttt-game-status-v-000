@@ -48,5 +48,7 @@ def over?(board)
 end
 
 def winner(board)
-  won?(board)
+  winning_ind = won?(board
+  winning_ind[0]
+  
 end
