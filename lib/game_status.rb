@@ -38,3 +38,4 @@ def full?(board)
     position == "X" || position == "O"
   end
 end
+
